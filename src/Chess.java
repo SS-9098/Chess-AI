@@ -194,8 +194,6 @@ public class Chess extends Pieces implements MouseListener
 					highlight(i);
 					piece_index=blackpieces_index[i][1];
 					piece_pointer=i;
-					System.out.println("click "+blackpieces_index[i][1]%10+" "+blackpieces_index[i][1]/10);
-					
 				}
 				else 
 				{
@@ -234,8 +232,6 @@ public class Chess extends Pieces implements MouseListener
 					highlight(i);
 					piece_index=whitepieces_index[i][1];
 					piece_pointer=i;
-					System.out.println("click "+whitepieces_index[i][1]%10+" "+whitepieces_index[i][1]/10);
-					
 				}
 				else
 				{
@@ -280,7 +276,6 @@ public class Chess extends Pieces implements MouseListener
 				{
 					if(islegal(piece_pointer, piece_index, empty_pos[i][1]) && piece_index<100)
 					{
-						System.out.println("move");
 						panel[empty_pos[i][1]/10-1][empty_pos[i][1]%10-1].removeAll();
 						panel[piece_index/10-1][piece_index%10-1].removeAll();
 						panel[empty_pos[i][1]/10-1][empty_pos[i][1]%10-1].add(blackpieces[piece_pointer]);
@@ -1219,7 +1214,6 @@ public class Chess extends Pieces implements MouseListener
 												blackpieces_index[15][1]=18;
 											}
 											blackpieces_index[i][1]=temp;
-											System.out.println(score);
 											if(score<max)
 											{
 												bestmove[1]=i;
