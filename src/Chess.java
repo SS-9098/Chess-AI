@@ -11,23 +11,6 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-/*
- *   Each square should be a separate panel
- *   Each square also must have two states: Empty and Occupied
- *   To  move, first highlight legal possible spaces(also check panel state)
- *   After a move, delete the piece from that panel and redeploy it in the target panel(Change panel state to occupied)
- *   Add "empty" button to the previous box
- *   
- *   Each piece is a panel containing a button(and a label if necessary)
- *   
- *   IDEA: TRY USING MOUSE LISTENER TO REPLACE BUTTONS
- *   
- *   black and white pieces indexes are increased by 1
- *   
- *   Each square must have an invisible button
- *   on buttons with no piece, check if background is green, if yes then move previously clicked piece there and add
- *   a new empty square in the original position
- */
 public class Chess extends Pieces implements MouseListener
 {
 	JPanel frame;
