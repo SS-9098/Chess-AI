@@ -1140,7 +1140,6 @@ public class Chess extends Pieces implements MouseListener
 	}
 	
 	void resetBG()
-
 	{
 		for(int i=0;i<8;i++)
 		{
@@ -1380,7 +1379,6 @@ public class Chess extends Pieces implements MouseListener
 	    
 	    if(first)
 	    {
-
 	    	for(int i=0;i<16;i++)
 	    	{
 	    		blackpieces_indextemp[i][1]=blackpieces_index[i][1];
@@ -1393,7 +1391,6 @@ public class Chess extends Pieces implements MouseListener
 		{
 			if(blackpieces_index[i][1]<100 && depth%2==1)
 			{
-				
 				for(int j=11;j<=88;j++)
 				{
 					turn=false;
@@ -1449,7 +1446,6 @@ public class Chess extends Pieces implements MouseListener
 			}
 			else if(whitepieces_index[i][1]<100 && depth%2==0)
 			{
-				
 				for(int j=11;j<=88;j++)
 				{
 					turn=true;
@@ -1659,7 +1655,6 @@ public class Chess extends Pieces implements MouseListener
 	    
 	    if(first)
 	    {
-
 	    	for(int i=0;i<16;i++)
 	    	{
 	    		blackpieces_indextemp[i][1]=blackpieces_index[i][1];
@@ -1672,7 +1667,6 @@ public class Chess extends Pieces implements MouseListener
 		{
 			if(blackpieces_index[i][1]<100 && depth%2==1)
 			{
-				
 				for(int j=11;j<=88;j++)
 				{
 					turn=false;
@@ -1730,7 +1724,6 @@ public class Chess extends Pieces implements MouseListener
 			}
 			else if(whitepieces_index[i][1]<100 && depth%2==0)
 			{
-				
 				for(int j=11;j<=88;j++)
 				{
 					turn=true;
