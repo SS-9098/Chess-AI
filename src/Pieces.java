@@ -25,9 +25,7 @@ public class Pieces
 	{
 		Black = new JLabel[16];
 		White = new JLabel[16];
-		
-		
-		   Image blackpawn = new ImageIcon("blackpawn.png").getImage().getScaledInstance(90, 90,  java.awt.Image.SCALE_SMOOTH ) ; 
+		   Image blackpawn = new ImageIcon("blackpawn.png").getImage().getScaledInstance(90, 90,  java.awt.Image.SCALE_SMOOTH ) ;
 		   Image whitepawn = new ImageIcon("whitepawn.png").getImage().getScaledInstance(90, 90,  java.awt.Image.SCALE_SMOOTH ) ; 
 		   Image blackking = new ImageIcon("blackking.png").getImage().getScaledInstance(90, 90,  java.awt.Image.SCALE_SMOOTH ) ; 
 		   Image whiteking = new ImageIcon("whiteking.png").getImage().getScaledInstance(90, 90,  java.awt.Image.SCALE_SMOOTH ) ; 
