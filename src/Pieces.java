@@ -7,36 +7,24 @@ public class Pieces
 {
 	JLabel Black[];
 	JLabel White[];
-	
-	Image blackpawn;
-	Image whitepawn;
-	Image blackking;
-	Image whiteking;
-	Image blackqueen;
-	Image whitequeen;
-	Image blackbishop;
-	Image whitebishop;
-	Image blackrook;
-	Image whiterook;
-	Image blackhorse;
-	Image whitehorse;
+
 	
 	public Pieces() 
 	{
 		Black = new JLabel[16];
 		White = new JLabel[16];
-		   Image blackpawn = new ImageIcon("blackpawn.png").getImage().getScaledInstance(90, 90,  java.awt.Image.SCALE_SMOOTH ) ;
-		   Image whitepawn = new ImageIcon("whitepawn.png").getImage().getScaledInstance(90, 90,  java.awt.Image.SCALE_SMOOTH ) ; 
-		   Image blackking = new ImageIcon("blackking.png").getImage().getScaledInstance(90, 90,  java.awt.Image.SCALE_SMOOTH ) ; 
-		   Image whiteking = new ImageIcon("whiteking.png").getImage().getScaledInstance(90, 90,  java.awt.Image.SCALE_SMOOTH ) ; 
-		   Image blackqueen = new ImageIcon("blackqueen.png").getImage().getScaledInstance(90, 90,  java.awt.Image.SCALE_SMOOTH ) ; 
-		   Image whitequeen = new ImageIcon("whitequeen.png").getImage().getScaledInstance(90, 90,  java.awt.Image.SCALE_SMOOTH ) ; 
-		   Image blackbishop = new ImageIcon("blackbishop.png").getImage().getScaledInstance(90, 90,  java.awt.Image.SCALE_SMOOTH ) ; 
-		   Image whitebishop = new ImageIcon("whitebishop.png").getImage().getScaledInstance(90, 90,  java.awt.Image.SCALE_SMOOTH ) ; 
-		   Image blackrook = new ImageIcon("blackrook.png").getImage().getScaledInstance(90, 90,  java.awt.Image.SCALE_SMOOTH ) ; 
-		   Image whiterook = new ImageIcon("whiterook.png").getImage().getScaledInstance(90, 90,  java.awt.Image.SCALE_SMOOTH ) ; 
-		   Image blackhorse = new ImageIcon("blackhorse.png").getImage().getScaledInstance(90, 90,  java.awt.Image.SCALE_SMOOTH ) ; 
-		   Image whitehorse = new ImageIcon("whitehorse.png").getImage().getScaledInstance(90, 90,  java.awt.Image.SCALE_SMOOTH ) ; 
+		   Image blackpawn = new ImageIcon("Chess pieces/blackpawn.png").getImage().getScaledInstance(90, 90,  java.awt.Image.SCALE_SMOOTH ) ;
+		   Image whitepawn = new ImageIcon("Chess pieces/whitepawn.png").getImage().getScaledInstance(90, 90,  java.awt.Image.SCALE_SMOOTH ) ;
+		   Image blackking = new ImageIcon("Chess pieces/blackking.png").getImage().getScaledInstance(90, 90,  java.awt.Image.SCALE_SMOOTH ) ;
+		   Image whiteking = new ImageIcon("Chess pieces/whiteking.png").getImage().getScaledInstance(90, 90,  java.awt.Image.SCALE_SMOOTH ) ;
+		   Image blackqueen = new ImageIcon("Chess pieces/blackqueen.png").getImage().getScaledInstance(90, 90,  java.awt.Image.SCALE_SMOOTH ) ;
+		   Image whitequeen = new ImageIcon("Chess pieces/whitequeen.png").getImage().getScaledInstance(90, 90,  java.awt.Image.SCALE_SMOOTH ) ;
+		   Image blackbishop = new ImageIcon("Chess pieces/blackbishop.png").getImage().getScaledInstance(90, 90,  java.awt.Image.SCALE_SMOOTH ) ;
+		   Image whitebishop = new ImageIcon("Chess pieces/whitebishop.png").getImage().getScaledInstance(90, 90,  java.awt.Image.SCALE_SMOOTH ) ;
+		   Image blackrook = new ImageIcon("Chess pieces/blackrook.png").getImage().getScaledInstance(90, 90,  java.awt.Image.SCALE_SMOOTH ) ;
+		   Image whiterook = new ImageIcon("Chess pieces/whiterook.png").getImage().getScaledInstance(90, 90,  java.awt.Image.SCALE_SMOOTH ) ;
+		   Image blackhorse = new ImageIcon("Chess pieces/blackhorse.png").getImage().getScaledInstance(90, 90,  java.awt.Image.SCALE_SMOOTH ) ;
+		   Image whitehorse = new ImageIcon("Chess pieces/whitehorse.png").getImage().getScaledInstance(90, 90,  java.awt.Image.SCALE_SMOOTH ) ;
 		  
 		
 		for(int i=0;i<16;i++)
