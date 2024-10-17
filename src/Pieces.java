@@ -5,8 +5,8 @@ import javax.swing.JLabel;
 
 public class Pieces 
 {
-	JLabel Black[];
-	JLabel White[];
+	JLabel[] Black;
+	JLabel[] White;
 
 	
 	public Pieces() 
