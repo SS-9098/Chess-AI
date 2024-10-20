@@ -2,4 +2,4 @@
 
 *OR*
 
-**Clone Repository into an IDE and run ```Main.java``` File**
+**Clone Repository into an IDE and run ```Main.java``` File in the _src_ Folder**
