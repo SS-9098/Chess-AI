@@ -1,6 +1,6 @@
 ## Overview
-- AI uses MiniMax Algorithm with Alpha-beta pruning.
-- Current optimization is terrible and therefore maximum depth level is 3. 
+- AI uses MiniMax Algorithm with Alpha-Beta pruning.
+- Currently the AI's depth level is 3. 
 - Takes pieces positioning and values into account.
 
 
