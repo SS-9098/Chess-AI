@@ -5,11 +5,16 @@
 
 
 ## How To Start
-**Download Latest Version, extract files into a folder and run ```Chess.JAR``` File**
+1. Download Latest Version 
+2. Extract files into a folder
+3. Run ```Chess.JAR``` File
 
-*OR*
+ _OR_
+   
+1. Clone Repository into an IDE
+2. Run ```Main.java``` file in the _src/main_ folder
 
-**Clone Repository into an IDE and run ```Main.java``` File in the _src/main_ Folder**
+---
 
 > [!IMPORTANT]
 > Needs Java version 22 or later to run!
